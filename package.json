@@ -1,0 +1,19 @@
+{
+  "name": "dbf_to_json_converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node --max-old-space-size=8000 converter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dbf-parser": "^0.0.1",
+    "stream-dbf": "^0.3.0",
+    "yargs": "^17.0.1",
+    "yargs-parser": "^20.2.7"
+  }
+}
